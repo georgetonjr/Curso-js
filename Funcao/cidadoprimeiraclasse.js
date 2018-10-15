@@ -5,7 +5,7 @@ function fun1(){ }
 //armazenar em uma variavel
 const fun2= function () {}
 
-<<<<<<< HEAD
+
 //Armazenar em um array
 const array = [function(a, b) {return a + b}, fun1, fun2]
 
@@ -41,4 +41,4 @@ CincoMais(4)
 =======
 //armazenar em um array
 const array = [function(a, b){return a + b}]
->>>>>>> 786e62f654bd586519ec9804cb7e6141af84c0ca
+
