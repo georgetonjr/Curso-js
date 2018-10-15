@@ -38,7 +38,7 @@ function soma(a, b){
 soma(2, 3)(4)
 const CincoMais = soma(2, 3)
 CincoMais(4)
-=======
+
 //armazenar em um array
 const array = [function(a, b){return a + b}]
 
