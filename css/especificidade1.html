@@ -6,6 +6,27 @@
     <title>Especificidade CSS</title>
     <style>
         /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+        /*
+        * com important exceção
+        * seletores mais especificos
+        * ultimo processado tem prioridade
+        */
+        
+        p {
+            background-color: gray;
+        }
+        
+        .obervacao {
+            background-color: blue;
+            border: dashed 5px;
+            padding: 20px;
+            font-size: 40px;
+        }
+        
+        p.obervacao {
+            padding: 5px 60px;
+            background: linear-gradient(to right, red, orange);
+        }
     </style>
 </head>
 
